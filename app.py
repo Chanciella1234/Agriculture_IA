@@ -56,7 +56,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ── Onglets ─────────────────────────────────────────────────
-tab1, tab2, tab3 = st.tabs(["🔮 Prédiction", "📊 Performances des Modèles"])
+tab1, tab2 = st.tabs(["🔮 Prédiction", "📊 Performances des Modèles"])
 
 # ════════════════════════════════════════════════════════════
 # ONGLET 1 — PRÉDICTION
