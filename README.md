@@ -1,4 +1,4 @@
-# 🌾 TP IA Agriculture Burundi — Guide de démarrage
+# 🌾 IA Agriculture Burundi — Guide de démarrage
 
 ## 📦 Contenu du projet
 ```
@@ -15,25 +15,9 @@ Agriculture_IA/
     └── metrics.pkl
 ```
 
-## 🚀 Lancer l'application web
+## 🚀 Lancer l'application web via cet URL
 
-```bash
-pip install streamlit scikit-learn pandas numpy matplotlib joblib
-streamlit run app.py
-```
-Ouvrir : http://localhost:8501
-
-## 📓 Exécuter le notebook
-
-```bash
-pip install jupyter pandas numpy matplotlib seaborn scikit-learn
-jupyter notebook TP_Agriculture_Burundi.ipynb
-```
-
-## 🌐 Déployer sur Streamlit Cloud (gratuit)
-1. Créer un compte sur https://streamlit.io/cloud
-2. Pousser le code sur GitHub (dépôt public)
-3. Connecter le dépôt → déploiement automatique
+https://agricultureia-bwbf7bvz5mgwcxakniljr7.streamlit.app/
 
 ## 📊 Performances des modèles
 | Modèle              | Accuracy | AUC    |
