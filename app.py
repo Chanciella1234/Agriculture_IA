@@ -263,30 +263,3 @@ with tab2:
     La Régression Logistique a la meilleure AUC (0.83) — meilleure discrimination entre classes.
     L'AUC est la métrique à privilégier ici car le dataset est déséquilibré (93% bonnes récoltes).
     """)
-
-# ════════════════════════════════════════════════════════════
-# ONGLET 3 — À PROPOS
-# ════════════════════════════════════════════════════════════
-with tab3:
-    st.markdown("""
-    ### 🎓 Contexte Académique
-    **Université Polytechnique de Gitega** — Bac 4 Génie Logiciel  
-    TP Intelligence Artificielle — Agriculture au Burundi
-
-    ### 📦 Modèles utilisés
-    | Modèle | Algorithme | Hyperparamètres |
-    |--------|-----------|----------------|
-    | Arbre de Décision | `DecisionTreeClassifier` | `max_depth=4`, `criterion='gini'` |
-    | Forêt Aléatoire | `RandomForestClassifier` | `n_estimators=100` |
-    | Régression Logistique | `LogisticRegression` | `max_iter=1000` |
-
-    ### 📊 Dataset
-    - **1 620 observations** couvrant 9 années (2015–2023)
-    - **15 provinces** du Burundi, **6 cultures**, **2 saisons**
-    - Variable cible : `bonne_recolte` (1 = bonne, 0 = mauvaise)
-
-    ### ⚠️ Limites
-    - Dataset simulé — à valider avec des données terrain réelles
-    - Déséquilibre de classes (93% bonnes récoltes)
-    - Outil d'aide à la décision — ne remplace pas l'expertise agronomique locale
-    """)
